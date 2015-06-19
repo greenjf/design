@@ -336,7 +336,7 @@ count is at least the bitwidth of the shift, `shl` and `shr` return zero, and
 otherwise.
 
 Note that greater-than and greater-than-or-equal operations are not required,
-since `a < b` is equivalent to `b > a` and `a <= b` is equivalent to `b >=
+since `a < b` is equivalent to `b >= a` and `a <= b` is equivalent to `b >
 a`. Such equalities also hold for floating point comparisons, even considering
 NaN.
 
